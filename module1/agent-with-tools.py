@@ -6,7 +6,7 @@ from smolagents.agents import CodeAgent, ToolCallingAgent
 import requests
 
 model = LiteLLMModel(
-    model_id="ollama_chat/phi4:14b",
+    model_id="ollama_chat/gemma3:1b",
     api_base="http://localhost:11434",  # replace with remote open-ai compatible server if necessary
     num_ctx=8192,  # ollama default is 2048 which will often fail horribly. 8192 works for easy tasks, more is better. Check https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator to calculate how much VRAM this will need for the selected model.
 )
