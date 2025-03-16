@@ -1,0 +1,9 @@
+Pillow
+requests
+smolagents
+smolagents[litellm]
+duckduckgo-search
+langchain
+langchain_community
+rank_bm25
+smolagents[e2b]
