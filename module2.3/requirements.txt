@@ -1,0 +1,6 @@
+typing-extensions
+IPython
+langchain
+langgraph
+langchain_huggingface
+langfuse
