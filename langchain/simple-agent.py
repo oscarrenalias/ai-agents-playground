@@ -8,7 +8,7 @@ from langgraph.prebuilt import create_react_agent
 # authenticate to HF
 from huggingface_hub import login
 import os
-login(token=os.getenv("HF_TOKEN"))
+login(token=os.getenv("HUGGINGFACE_ACCESS_TOKEN"))
 
 llm = HuggingFaceEndpoint(
     repo_id="Qwen/Qwen2.5-Coder-32B-Instruct",
